@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+  
+header {
+    background-color: rgb(255, 235, 203);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+li img {
+    width: 50px;
+    height: 50px;
+}
+
+.recipe {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    padding: 5px;
+}
+
+footer {
+  margin-top: auto;
+  background-color: darkgrey;
+}
+
+footer p {
+    text-align: center;
+    margin: 10px;
+}
